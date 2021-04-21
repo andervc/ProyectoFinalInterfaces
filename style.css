@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+body {
+    font-family: 'Sansita Swashed', cursive !important;
+}
+
+.navbar-dark {
+    background: rgb(27, 27, 27);
+    background: linear-gradient(90deg, rgba(27, 27, 27, 1) 0%, rgba(118, 113, 113, 1) 77%, rgba(214, 214, 214, 1) 100%);
+    color: #C0BAB6 !important;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.navbar-nav {
+    padding: 10px 20px;
+    padding-left: 20px !important;
+}
+
+ul li a {
+    color: white !important;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    animation: blur 4s ease-out infinite;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 0px 0px 20px rgba(73, 255, 24, 1), 0px 0px 30px rgba(73, 255, 24, 1), 0px 0px 40px rgba(73, 255, 24, 1), 0px 0px 55px rgba(73, 255, 24, 1), 0px 0px 75px rgba(73, 255, 24, 1);
+}
+
+.container-fluid {
+    display: block;
+    /* width: 980px !important;*/
+    margin: 0 auto;
+}
+
+.container {
+    width: 75% !important;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.Logo {
+    height: 100px;
+}
+
+.VerMas {
+    background-color: #76D140 !important;
+    color: white !important;
+    border: 1px solid #76D140 !important;
+}
+
+.footerMenu {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.footerMenu:hover {
+    animation: blur 4s ease-out infinite;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 0px 0px 20px rgba(73, 255, 24, 1), 0px 0px 30px rgba(73, 255, 24, 1), 0px 0px 40px rgba(73, 255, 24, 1), 0px 0px 55px rgba(73, 255, 24, 1), 0px 0px 75px rgba(73, 255, 24, 1);
+}
+
+.page-footer {
+    background: rgb(27, 27, 27);
+    background: linear-gradient(90deg, rgba(27, 27, 27, 1) 0%, rgba(118, 113, 113, 1) 77%, rgba(214, 214, 214, 1) 100%);
+}
+
+.FooterTexto {
+    color: white;
+    margin-bottom: 0;
+}
+
+.DivFooter {
+    padding-top: 15px;
+}
+
+.footer-copyright {
+    padding-bottom: 1rem !important;
+}
+
+.containerFooter {
+    margin: 0 auto;
+    padding: 20px 0;
+    /* width: 980px !important;*/
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.modal-header, .modal-footer {
+    background: rgb(27, 27, 27);
+    background: linear-gradient(90deg, rgba(27, 27, 27, 1) 0%, rgba(118, 113, 113, 1) 77%, rgba(214, 214, 214, 1) 100%);
+    color: white;
+}
+
+.BotonModal {
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.estrellas {
+    font-size: 40px;
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    /* de izq a derecha */
+    unicode-bidi: bidi-override;
+    /* bidi de bidireccional */
+}
+
+.estrellas:hover, .estrellas:hover~.estrellas {
+    color: orange;
+}
+
+input[type="radio"]:checked~.estrellas {
+    color: orange;
+}
+
+.favoritos{
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.BotonEliminar, .BotonModal, .BotonEnviar {
+    background-color: #5eb846 !important;
+    border-color: #5eb846 !important;
+}
+
+.AnimacionTexto {
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    animation: blur 4s ease-out infinite;
+    text-shadow: 0px 0px 5px #49ff18, 0px 0px 7px #49ff18;
+    text-align: center;
+}
+
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #49ff18, 0px 0px 10px #fff, 0px 0px 25px #49ff18, 0px 0px 25px #fff, 0px 0px 25px #49ff18, 0px 0px 25px #fff, 0px 0px 25px #49ff18, 0px 0px 25px #fff, 0px 0px 50px #49ff18, 0px 0px 50px #fff, 0px 0px 50px #49ff18, 0px 0px 150px #49ff18, 0px 10px 100px #49ff18, 0px 10px 100px #49ff18, 0px 10px 100px #49ff18, 0px 10px 100px #49ff18;
+    }
+}
+
+.TamanoFooter, .ImagenFav {
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
