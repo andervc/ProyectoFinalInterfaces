@@ -75,9 +75,14 @@
     }
     .carousel .pelicula {
         min-width: 20%;
+        
     }
     .flecha-der, .flecha-izq {
         display: none;
+    }
+    .carousel .pelicula:hover{
+        transform: scale(1.1);
+        transform-origin: center;
     }
 }
 
@@ -92,5 +97,9 @@
     }
     .flecha-der, .flecha-izq {
         display: none;
+    }
+    .carousel .pelicula:hover{
+        transform: scale(1.1);
+        transform-origin: center;
     }
 }
